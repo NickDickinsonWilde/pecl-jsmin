@@ -4,7 +4,7 @@
 #define JSMIN_H
 
 #include "php.h"
-#include "ext/standard/php_smart_string.h"
+#include "Zend/zend_smart_string.h"
 
 typedef struct {
 	char *javascript;
